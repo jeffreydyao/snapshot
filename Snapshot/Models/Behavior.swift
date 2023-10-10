@@ -8,7 +8,7 @@
 import Foundation
 
 /**
- test
+ Represents a behavior with a name and a timestamp.
  */
 struct Behavior: Identifiable, Hashable {
     let id = UUID()
