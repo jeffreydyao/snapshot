@@ -16,6 +16,7 @@
 		00CBB3452AD57C3100FA5245 /* SnapshotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CBB3442AD57C3100FA5245 /* SnapshotUITests.swift */; };
 		00CBB3472AD57C3100FA5245 /* SnapshotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CBB3462AD57C3100FA5245 /* SnapshotUITestsLaunchTests.swift */; };
 		00CBB3592AD5806400FA5245 /* Behavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CBB3582AD5806400FA5245 /* Behavior.swift */; };
+		00CBB35B2AD581EE00FA5245 /* BehaviorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CBB35A2AD581EE00FA5245 /* BehaviorViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		00CBB3442AD57C3100FA5245 /* SnapshotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotUITests.swift; sourceTree = "<group>"; };
 		00CBB3462AD57C3100FA5245 /* SnapshotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		00CBB3582AD5806400FA5245 /* Behavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Behavior.swift; sourceTree = "<group>"; };
+		00CBB35A2AD581EE00FA5245 /* BehaviorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehaviorViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 		00CBB3552AD57FB800FA5245 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				00CBB35A2AD581EE00FA5245 /* BehaviorViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 			files = (
 				00CBB32A2AD57C3000FA5245 /* ContentView.swift in Sources */,
 				00CBB3592AD5806400FA5245 /* Behavior.swift in Sources */,
+				00CBB35B2AD581EE00FA5245 /* BehaviorViewModel.swift in Sources */,
 				00CBB32C2AD57C3000FA5245 /* Item.swift in Sources */,
 				00CBB3282AD57C3000FA5245 /* SnapshotApp.swift in Sources */,
 			);
