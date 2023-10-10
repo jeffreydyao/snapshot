@@ -55,12 +55,28 @@ class BehaviorViewModel: ObservableObject {
     /**
      Updates a behavior from a date with a new value.
      */
-    func updateBehavior(date: Date, index: Int, value: Behavior) {
+    func updateBehavior(date: Date, index: Int, name: String? = nil, note: String? = nil, timestamp: Date? = nil) {
         performAction(on: date) { normalizedDate in
-            behaviors[normalizedDate]?[index] = value
+            guard var behaviorsOnDate = behaviors[normalizedDate] else {
+                return
+            }
+            
+            if let newName = name {
+                behaviorsOnDate[index].name = newName
+            }
+            
+            if let newNote = note {
+                behaviorsOnDate[index].note = newNote
+            }
+            
+            if let newTimestamp = timestamp {
+                behaviorsOnDate[index].timestamp = newTimestamp
+            }
+            
+            behaviors[normalizedDate] = behaviorsOnDate
         }
     }
-    
+
     /**
      Returns all behaviors for a given date.
      */
