@@ -1,13 +1,13 @@
 //
-//  BehaviorsUITests.swift
-//  BehaviorsUITests
+//  SnapshotUITests.swift
+//  SnapshotUITests
 //
-//  Created by Jeffrey Yao on 2/10/2023.
+//  Created by Jeffrey Yao on 10/10/2023.
 //
 
 import XCTest
 
-final class BehaviorsUITests: XCTestCase {
+final class SnapshotUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -1,13 +1,13 @@
 //
-//  BehaviorsUITestsLaunchTests.swift
-//  BehaviorsUITests
+//  SnapshotUITestsLaunchTests.swift
+//  SnapshotUITests
 //
-//  Created by Jeffrey Yao on 2/10/2023.
+//  Created by Jeffrey Yao on 10/10/2023.
 //
 
 import XCTest
 
-final class BehaviorsUITestsLaunchTests: XCTestCase {
+final class SnapshotUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
